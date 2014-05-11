@@ -24,10 +24,10 @@ plot(datasub$DateTime, datasub$Global_active_power, type = "l", ylab = "Global A
 plot(datasub$DateTime, data$Voltage, type = "l", ylab = "Voltage", xlab = "datetime")
 
 # plot lower left
-plot(datasub$DateTime, data$Sub_metering_1, type = "l", ylab = "Energy sub metering", xlab = ""))
-lines(datasub$DateTime, datasub$Sub_metering_2, col = "red"))
-lines(datasub$DateTime, datasub$Sub_metering_3, col = "blue"))
-legend("topright", lty = 1, bty = "n", col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+plot(datasub$DateTime, data$Sub_metering_1, type = "l", ylab = "Energy sub metering", xlab = "")
+lines(datasub$DateTime, datasub$Sub_metering_2, col = "red")
+lines(datasub$DateTime, datasub$Sub_metering_3, col = "blue")
+legend("topright", lty = 1, bty = "n", col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3")
 
 # plot "lowerright"
 plot(datasub$DateTime, data$Global_reactive_power, type = "l", ylab = "Global_reactive_power", xlab = "datetime")
